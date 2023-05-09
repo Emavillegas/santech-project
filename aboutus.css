@@ -1,0 +1,156 @@
+
+:root{
+  --fontsizeh1: 100px;
+  --fontsizeh2: 36px;
+  --fontsizeh3: 28px;
+  --fontsizeh3: 25px;
+  --fontsizespan: 60px;
+  --colorspan: #2C4A9A;
+  --font-family-titles:  'Montserrat', sans-serif;
+  --font-family-body: 'Montserrat', sans-serif;
+  --font-weight-titles:500;
+  --font-weight-body:300;
+
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--font-family-titles);
+  font-weight: var(--font-weight-titles);
+  text-transform: uppercase;
+}
+
+
+
+.conteiner-opening {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 50%), url(./img/teamplayers\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.text-opening{
+    text-align: center;
+}
+.text-opening h1{
+    font-size: var(--fontsizeh1);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.text-opening p{
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+/* fundadores */
+
+.founders-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 96px 40px;
+    max-width: 1600px;
+    margin: auto;
+
+  }
+
+  
+.founders-container h2{
+  width: 100%;
+  text-align: center;
+}
+  
+  .founder,
+  .co-founder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .founder img,
+  .co-founder img {
+    width: 100%;
+    max-width: 300px;
+    
+  }
+  
+  .founder h2,
+  .co-founder h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .founder .name,
+  .co-founder .name {
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .founder .bio,
+  .co-founder .bio {
+    margin: 10px 0;
+  }
+  
+  /* CONSULTA CON UN ESPECIALISTA */
+
+.container-specialist{
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%),url(./img/pexels-brett-sayles-4276427.jpg) ;  
+  height: 400px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+ 
+  @media (max-width: 767px){
+    background-attachment: scroll;
+  }
+ 
+}
+
+.container-text{
+  z-index: 2;
+  text-align: center;
+}
+
+.container-text h2{
+   padding: 10px;
+   font-size: var(--fontsizeh2);
+   color: #fff;
+}  
+
+
+.button-light{
+  font-size: 18px;
+  padding: 21px 42px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid;
+  font-weight: bold;
+
+}
+.button-light:hover{
+  background-color: #fff;
+  color: #FFED00;
+  border-color: #fff;
+}
+
+
+/* footer */
+
+
